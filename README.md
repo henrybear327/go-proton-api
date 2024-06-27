@@ -25,3 +25,9 @@ This library is forked from [go-proton-api](https://github.com/ProtonMail/go-pro
 Contribution is welcomed! 
 
 The intention to upstream the changes are planned, once the changes to the codebase has stabalized. 
+
+### Rebase
+
+As we will try to contribute back to the upstream in the future, the dev branch is always rebased against the upstream master branch. 
+
+One important note is that we need to replace `github.com/ProtonMail/go-proton-api` with `github.com/henrybear327/go-proton-api` for all files!

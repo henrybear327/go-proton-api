@@ -34,6 +34,7 @@ type Link struct {
 	NodePassphrase          string // The passphrase used to unlock the NodeKey, encrypted by the owning Link/Share keyring.
 	NodePassphraseSignature string
 	SignatureEmail          string // Signature email for the NodePassphraseSignature
+	XAttr                   string // Modification time and size from the file system
 
 	FileProperties   *FileProperties
 	FolderProperties *FolderProperties
